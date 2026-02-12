@@ -1,0 +1,11 @@
+[Unit]
+Description=Respounder Network Monitor
+After=network.target
+
+[Service]
+ExecStart=/opt/respounder-monitor/monitor.sh
+Restart=always
+User=root
+
+[Install]
+WantedBy=multi-user.target
