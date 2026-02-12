@@ -1,0 +1,8 @@
+/opt/respounder-monitor/
+ ├── monitor.sh
+ ├── config.conf
+ ├── msmtp.conf
+ └── logs/
+      └── monitor.log
+      └── msmtp.log
+ └── isolated.list
