@@ -5,4 +5,4 @@ Außerdem wird unabhängig der isolation eine E-Mail mit der IP-Adresse des Resp
 
 
 Folgende Pakete werden benötigt:
-go, jq, msmtp, respounder
+go, jq, msmtp, respounder -> sudo apt install -y git golang jq msmtp
